@@ -24,9 +24,18 @@ CLOSE CALLBACKS: This phase executes the callbacks of all close events.
 Node Package Manager is both a tool for managing project dependencies via command line and a website hosting more than 1 million third-party packages that can be used for your project. 
 
 5:How do you initialize a package in npm
+
+To initialize npm and go through all of the settings use:
 $ npm init
 
+To automatically select all defaults use -y
+$ npm init -y
+
 6: How do you run a script in the package.json ?
+To run a script that you have added to your package.json file, simply run $ npm run argument with the name of the script as the argument.
+
+Example: $ npm run prettier
+
 
 7: Initialize a package if your choice, give it a name and install the following npm packages to it, express, mongoose, joi.
 
